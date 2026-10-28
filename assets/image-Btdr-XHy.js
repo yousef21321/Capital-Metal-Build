@@ -1,0 +1,1 @@
+function e(e){return e?`/storage/${e}`:``}function t(t){return t?e(t.image_url_thumb||t.thumb_url||t.image_url):``}function n(t,{thumb:n=480,full:r=1200}={}){let i=e(t?.image_url);if(!i)return``;let a=t?.image_url_thumb?e(t.image_url_thumb):null;return!a||a===i?i:`${a} ${n}w, ${i} ${r}w`}export{t as n,n as t};

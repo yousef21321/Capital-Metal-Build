@@ -1,0 +1,1 @@
+var e=`/assets/logo-small-J_KfCeSR.webp`,t=`/assets/logodark-small-BNJFEWhO.webp`;export{e as n,t};
